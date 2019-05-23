@@ -1,0 +1,59 @@
+table {
+	border-collapse: collapse;
+}
+
+td, tr {
+	border: 1px solid #ddd;
+	font-family: 'Consolas';
+	font-size: 14pt;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+.wrapper .rows-even .cell:nth-child(odd) {
+	background: black; 
+}
+
+.wrapper .rows-odd .cell:nth-child(even) {
+	background: black; 
+}
+
+tr .removed {
+	background: transparent;
+}
+
+#result-form {
+	display: none;
+	border: 1px solid #aaa;
+	padding: 15px 10px 10px 10px;
+	width: 400px;
+	height: 130px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	position: absolute;
+}
+
+#buttonOK {
+	color: #fff;
+	text-decoration: none;
+	background: #81BEF7;
+	padding: 11px 24px;
+	float: right;
+	border-radius: 4px;
+}
+
+#buttonOK:hover { 
+	background: #0080FF; 
+} 
+
+#buttonOK:active {
+ 	background: #01DF3A; 
+} 
+
+
+
+
