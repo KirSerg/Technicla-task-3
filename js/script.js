@@ -1,7 +1,7 @@
 let arrNumbers = [];
 let arrColors = ['red', 'orange', 'yellow', 'lime', 'blue', 'fuchsia', 'green', 'maroon'];
 let objDouble = {};
-/*создание объекта с полями от 0 до 15 и значениями полей undefined */  
+/*создание объекта с полями от 0 до 15 и значениями полей undefined  */  
 for (let i = 0; i <= 15; i++){
   objDouble[`${i}`] = undefined;
 }
