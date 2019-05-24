@@ -3,7 +3,7 @@ let arrColors = ['red', 'orange', 'yellow', 'lime', 'blue', 'fuchsia', 'green', 
 let objDouble = {};
 /*создание объекта с полями от 0 до 15 и значениями полей undefined*/  
 for (let i = 0; i <= 15; i++){
-  objDouble[`''${i}`] = undefined;
+  objDouble[`${i}`] = undefined;
 }
 /*цикл генерации случайным образом восьми пар цветов и заполнения ими полей объекта objDouble*/
 for (let j = 0; j <= 1; j++){
