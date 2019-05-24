@@ -68,6 +68,7 @@ let events = function (event) {
     	  prevSelectedItem.style = '';
     	  prevSelectedItem.className = '';
     	  prevSelectedItem = null;
+        count = 0;
         }
     }
 };	
